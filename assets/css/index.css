@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "space-mono";
+    src: url(./../fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url(./../fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error-page {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: space-mono;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.middle-container {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.scarecrow-image {
+    width: 100%;
+    height: 100%;
+}
+
+.message {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: space-mono;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.035rem;
+    height: 65%;
+}
+
+.message-404 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    font-family: Inconsolata;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.08em;
+}
+
+.explanation {
+    color: #4F4F4F;
+    width: 60%;
+}
+
+.credits {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.back-to-homepage {
+    height: 3.5rem;
+    width: 11rem;
+    background-color: #333333;
+    color: white;
+    font-family: space-mono;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: -0.035em;
+    text-align: center;
+    padding: 1.1rem;
+}
+
+.back-to-homepage:hover {
+    background-color: #847daa;
+}
+
+.scarecrow-image-container {
+    width: 40%;
+    height: 85%;
+}
